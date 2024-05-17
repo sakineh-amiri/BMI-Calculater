@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+/* .poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+body {
+  width: 100%;
+  height: 100%;
+  background: url(./czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjg3MC1teW50LTIwXzFfMi5qcGc.webp);
+}
+
+.container {
+  width: 60%;
+  height: 50vh;
+  margin: auto;
+  margin-top: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(251, 255, 255);
+  box-shadow: 8px 8px 10px rgba(78, 78, 76, 0.708);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+.space {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+span {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+input[type="range"] {
+  width: 70%;
+  height: 3.5px;
+  margin: 0 20px 0 20px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #dcdcdc;
+  border-radius: 3px;
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 15px;
+  width: 15px;
+  background-color: #1c1c1c;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#result,
+#category {
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
